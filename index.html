@@ -23,7 +23,7 @@
     />
     <title>OLAN AND JOHNSON</title>
   </head>
-  <body>
+  <body class="">
     <header
       class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden"
     >
@@ -46,15 +46,27 @@
           <li class=""><a class="" id="" href="/about.html">About Us</a></li>
         </ul>
         <ul id="mobile-nav" class="hidden max-sm:block">
-          <i id="open" class="fa-solid fa-bars text-3xl text-right"></i>
-          <i
-            id="close"
-            class="fa-sharp fa-solid fa-xmark text-3xl text-right hidden"
-          ></i>
+          <span id="open" class="" data-id="close the ham"
+            ><i class="fa-solid fa-bars text-3xl text-right"></i
+          ></span>
+          <span id="close" class="hidden">
+            <i class="fa-sharp fa-solid fa-xmark text-3xl text-right"></i>
+          </span>
         </ul>
       </nav>
     </header>
-    <main class="mt-[100px] w-full">
+    <main class="mt-[100px] w-full relative">
+      <ul
+        id="mobile-menu"
+        class="absolute font-semibold z-50 bg-white text-center left-0 right-0 -top-[2px] space-y-10 bottom-00 h-[calc(100vh-100px)] w-full hidden max-sm:block -translate-x-full duration-300 ease-out pt-[4rem] overflow-hidden"
+      >
+        <li class=""><a class="" id="" href="/">Home</a></li>
+        <li class=""><a class="" id="" href="/projects.html">Projects</a></li>
+        <li class="">
+          <a class="" id="" href="/contact.html">Contact Us</a>
+        </li>
+        <li class=""><a class="" id="" href="/about.html">About Us</a></li>
+      </ul>
       <section>
         <video
           class="w-full"
@@ -269,7 +281,6 @@
         <p class="text-center text-gray-600">
           Olan & Johnson &copy; <span id="cal"></span>
         </p>
-        by Tosin Akerele
       </footer>
     </main>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
