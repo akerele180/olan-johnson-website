@@ -1,0 +1,125 @@
+.image_holders{
+    background-color: #D6D6D6;
+    padding: 50px 95px;
+}
+.image_rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.linksmobile{
+    background-color: white;
+    display: none;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.viewed_image{
+    width: 43%;
+    height: 400px;
+}
+.explore_button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+
+.explorebutton_div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 850px){
+    .viewed_image{
+        height: 300px;
+    }
+    .image_holders{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 650px){
+    .image_rows{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .viewed_image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .image_holders{
+        padding: 30px 50px;
+    }
+}
+.hamburger.active{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+.close.active{
+    display: block;
+}
+.close{
+    display: none;
+}
+
+@media (max-width: 640px){
+    .hamburger.active{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .close.active{
+        display: block !important;
+    }
+    .close{
+        display: none !important;
+    }
+    .linksmobile{
+        background-color: white;
+        display: none;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+    }
+    .contact_topicdetail{
+        padding: 50px 20px;
+    }
+    .linksmobile.active{
+        display: block;
+    }
+    .homelist{
+        margin-left: 40px;
+    }
+    .listShown{
+        color: black;
+        display: block;
+    }
+    .contact_infos{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phonedetails{
+        margin-top: 10px;
+    }
+    .name_address{
+        flex-direction: column;
+    }
+    .emailaddr{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .contact_form{
+        width: 90%;
+    }
+    .contact_formdetail{
+        padding: 0 20px;
+    }
+}
