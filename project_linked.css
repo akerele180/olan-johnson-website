@@ -30,8 +30,8 @@
     justify-content: space-around;
 }
 .image_profilesrn{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .moet_greybg{
@@ -69,6 +69,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .drinksimg_holders{
+        
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .story_moet{
         width: 100%;
@@ -81,6 +88,9 @@
         flex-direction: column;
         margin-top: 0;
     }
+    .moet_nig{
+        font-size: 35px;
+    }
     .viewed_image{
         width: 100%;
         margin-top: 20px;
@@ -88,6 +98,12 @@
     /* .image_holders{
         padding: 30px 50px;
     } */
+}
+.listLinking{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .hamburger.active{
     display: none;
@@ -116,11 +132,15 @@
     .close{
         display: none !important;
     }
+    .moet_nig{
+        padding: 0 15px;
+    }
     .linksmobile{
         background-color: white;
         display: none;
         text-align: center;
         position: fixed;
+        height: 100vh;
         width: 100%;
     }
     .contact_topicdetail{

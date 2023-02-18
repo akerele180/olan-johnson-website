@@ -31,9 +31,16 @@
     .close{
         display: none !important;
     }
+    .listLinking{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .linksmobile{
         background-color: white;
         display: none;
+        height: 100vh;
         text-align: center;
         position: fixed;
         width: 100%;

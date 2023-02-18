@@ -99,6 +99,12 @@
     text-align: center;
     margin-bottom: 6em;
 }
+.listLinking{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .googlemap_shown{
     margin-top: -15em;
     margin-bottom: 1em;
@@ -183,6 +189,27 @@
     .hamburger.active{
         display: none;
     }
+    .whoarewe{
+        font-size: 2em;
+    }
+    .our_mission{
+        font-size: 2em;
+    }
+    .mission_darkword{
+        padding: 2em;
+    }
+    .meet_intro{
+        font-size: 2em;
+    }
+    .team_intro{
+        padding: 2em;
+    }
+    .ceo_region{
+        padding: 7em 0;
+    }
+    .googlemap{
+        margin-top: 1em;
+    }
     .hamburger{
         display: block;
     }
@@ -192,10 +219,25 @@
     .close{
         display: none !important;
     }
+    .carousel_slide{
+        padding: 3em 1em;
+    }
+    .dec_words{
+        width: 100%;
+    }
+    .image_ceo{
+        width: 200px;
+        height: 200px;
+    }
+    .our_ceo{
+        margin-top: 80px;
+    }
     .linksmobile{
         background-color: white;
         display: none;
         text-align: center;
+        height: 100vh;
+        z-index: 200;
         position: fixed;
         width: 100%;
     }

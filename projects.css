@@ -86,7 +86,14 @@
         display: none;
         text-align: center;
         position: fixed;
+        height: 100vh;
         width: 100%;
+    }
+    .listLinking{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .contact_topicdetail{
         padding: 50px 20px;
