@@ -231,6 +231,17 @@
     }
     .our_ceo{
         margin-top: 80px;
+        font-size: 2em;
+    }
+    .googlemap{
+        font-size: 2em;
+        padding: 0 10px;
+    }
+    .googlemap_text{
+        padding: 0 10px;
+    }
+    .foundertopic{
+        font-size: 1.2em;
     }
     .linksmobile{
         background-color: white;

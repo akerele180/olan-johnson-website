@@ -141,6 +141,9 @@
     .hamburger{
         display: block;
     }
+    .contact_formdetail{
+        width: 90%;
+    }
     .close.active{
         display: block;
     }
