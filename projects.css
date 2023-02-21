@@ -10,7 +10,9 @@
 }
 .linksmobile{
     background-color: white;
-    display: none;
+    /* display: none; */
+    transform: translateX(-100%);
+        transition: transform ease-out 1s;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -83,7 +85,9 @@
     }
     .linksmobile{
         background-color: white;
-        display: none;
+        /* display: none; */
+        transform: translateX(-100%);
+        transition: transform ease-out 1s;
         text-align: center;
         position: fixed;
         height: 100vh;
@@ -100,9 +104,11 @@
     }
     .linksmobile.active{
         display: block;
+        transform: translateX(0%);
+        transition: transform ease-out 1s;
     }
     .homelist{
-        margin-left: 40px;
+        margin-left: 0 !important;
     }
     .listShown{
         color: black;
