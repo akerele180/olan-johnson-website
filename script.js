@@ -26,3 +26,13 @@ function closeMenu() {
     hamburger.classList.remove("active");
     list.classList.remove("active");
 }
+
+// $(function(){
+//     $("#web-nav a").click(function(){
+//       $("#web-nav a").removeClass("selected")
+//       $(this).addClass("selected")
+//       return false;
+//     })
+//   })
+
+AOS.init();

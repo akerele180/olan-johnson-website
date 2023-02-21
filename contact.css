@@ -8,6 +8,12 @@
 .hamburger{
     display: block;
 }
+.curpage{
+    border-bottom: 1px solid black;
+}
+.selected{
+    border-bottom: 1px solid black;
+}
 .close.active{
     display: block;
 }
@@ -181,6 +187,9 @@
     }
     .homelist{
         margin-left: 0 !important;
+    }
+    .curhomelist{        
+        border-bottom: 1px solid black;
     }
     .listShown{
         color: black;

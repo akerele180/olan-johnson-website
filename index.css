@@ -1,11 +1,17 @@
 .hamburger.active{
     display: none;
 }
+.curpage{
+    border-bottom: 1px solid black;
+}
 .hamburger{
     display: block;
 }
 .close.active{
     display: block;
+}
+.selected{
+    border-bottom: 1px solid black;
 }
 .close{
     display: none;
@@ -59,6 +65,10 @@
     }
     .homelist{
         margin-left: 0 !important;
+    }
+    .curhomelist{
+        margin-left: 0 !important;
+        border-bottom: 1px solid black;
     }
     .listShown{
         color: black;

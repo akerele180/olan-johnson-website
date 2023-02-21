@@ -17,6 +17,9 @@
     position: fixed;
     width: 100%;
 }
+.curpage{
+    border-bottom: 1px solid black;
+}
 .viewed_image{
     width: 43%;
     height: 400px;
@@ -109,6 +112,10 @@
     }
     .homelist{
         margin-left: 0 !important;
+    }
+    .curhomelist{
+        margin-left: 0 !important;
+        border-bottom: 1px solid black;
     }
     .listShown{
         color: black;

@@ -10,6 +10,12 @@
 .close{
     display: none;
 }
+.selected{
+    border-bottom: 1px solid black;
+}
+.curpage{        
+    border-bottom: 1px solid black;
+}
 .linksmobile{
     background-color: white;
     /* display: none; */
@@ -266,6 +272,12 @@
     }
     .homelist{
         margin-left: 0 !important;
+    }
+    .curhomelist{        
+        border-bottom: 1px solid black;
+    }
+    .selected{
+        border-bottom: 1px solid black;
     }
     .listShown{
         color: black;

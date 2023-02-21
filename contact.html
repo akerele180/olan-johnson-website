@@ -15,6 +15,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +28,7 @@
   </head>
   <body>
     <header
-      class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden"
+      class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden z-50"
     >
       <div class="logo">
         <a href="/">
@@ -41,7 +43,7 @@
         <ul id="web-nav" class="hidden sm:flex space-x-10 font-semibold">
           <li class=""><a class="" id="" href="/">Home</a></li>
           <li class=""><a class="" id="" href="/projects.html">Projects</a></li>
-          <li class="">
+          <li class="curpage">
             <a class="" id="" href="/contact.html">Contact Us</a>
           </li>
           <li class=""><a class="" id="" href="/about.html">About Us</a></li>
@@ -61,29 +63,29 @@
         <ul id="web-nav" class="text-black sm:flex space-x-10 font-semibold listLinking">
           <li class="homelist"><a class="" id="" href="/">Home</a></li>
           <li class="homelist"><a class="" id="" href="/projects.html">Projects</a></li>
-          <li class="homelist">
+          <li class="curhomelist">
             <a class="" id="" href="/contact.html">Contact Us</a>
           </li>
           <li class="homelist"><a class="" id="" href="/about.html">About Us</a></li>
         </ul>
       </div>
       <section class="contact_holders">
-        <div class="contact_topicdetail">
+        <div class="contact_topicdetail" data-aos="zoom-in" data-aos-duration="1000">
             <h2 class="contactus">Contact Us</h2>
             <p class="contact_feel">Feel free to contact us, our team will be in touch with you soon.</p>
         </div>
         <div class="contact_infos">
-            <div class="phonedetails">
+            <div class="phonedetails" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="./assets/images/phone.png" />
                 <p class="contact_feel">Call us today</p>
                 <p class="contact_feel">+2234 098 5432</p>
             </div>
-            <div class="phonedetails">
+            <div class="phonedetails" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="./assets/images/message.png" />
                 <p class="contact_feel">Send an E-mail</p>
                 <p class="contact_feel">info@olanjohnson.com</p>
             </div>
-            <div class="phonedetails">
+            <div class="phonedetails" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="./assets/images/arrow.png" />
                 <p class="contact_feel">Visit us</p>
                 <p class="contact_feel">Maryland, Lagos.</p>
@@ -91,7 +93,7 @@
         </div>
 
         <div class="contact_infosmsg">
-            <div class="contact_formdetail">
+            <div class="contact_formdetail" data-aos="fade-right" data-aos-duration="1000">
                 <p class="contactus">Block 14,</p>
                 <p class="contactus">Housing Estate,</p>
                 <p class="contactus">Maryland, Lagos.</p>
@@ -110,13 +112,13 @@
                 </div>
             </div>
            
-            <div class="contact_form">
+            <div class="contact_form" data-aos="fade-right" data-aos-duration="1000">
               <p class="contactform_topic">Send us a message</p>
               <div class="name_address">
                 <input type="text" placeholder="Full name" class="fullname"/>
                 <input type="text" placeholder="Email address" class="emailaddr" />
             </div>
-            <textarea  class="contact_message">Your Message</textarea>
+            <textarea  class="contact_message" placeholder="Your message"></textarea>
             <div class="explorebutton_div">
               <a href="" class="explore_button"> Send</a>
           </div>
