@@ -15,16 +15,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="project_linked.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
       rel="stylesheet"
     />
-    
     <title>OLAN AND JOHNSON</title>
   </head>
   <body>
@@ -59,7 +56,7 @@
       </nav>
     </header> -->
     <header
-      class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden z-50"
+      class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden"
     >
       <div class="logo">
         <a href="/">
@@ -71,9 +68,9 @@
         </a>
       </div>
       <nav>
-        <ul id="web-nav" class="hidden sm:flex space-x-10 font-semibold ">
+        <ul id="web-nav" class="hidden sm:flex space-x-10 font-semibold">
           <li class=""><a class="" id="" href="/">Home</a></li>
-          <li class="curpage"><a class="" id="" href="/projects.html">Projects</a></li>
+          <li class=""><a class="" id="" href="/projects.html">Projects</a></li>
           <li class="">
             <a class="" id="" href="/contact.html">Contact Us</a>
           </li>
@@ -90,37 +87,54 @@
     </header>
     <main class="mt-[100px] w-full">
       <div class="linksmobile" id="linksmobile">
-        <ul id="web-nav" class="text-black z-50 sm:flex space-x-10 font-semibold listLinking">
+        <ul id="web-nav" class="text-black sm:flex space-x-10 font-semibold listLinking">
           <li class="homelist"><a class="" id="" href="/">Home</a></li>
-          <li class="curhomelist"><a class="" id="" href="/projects.html">Projects</a></li>
+          <li class="homelist"><a class="" id="" href="/projects.html">Projects</a></li>
           <li class="homelist">
             <a class="" id="" href="/contact.html">Contact Us</a>
           </li>
           <li class="homelist"><a class="" id="" href="/about.html">About Us</a></li>
         </ul>
       </div>
-        <section class="image_holders"  >
-            <div class="image_rows" >
-                <img src ="./assets/images/henessy.png" class="viewed_image" data-aos="fade-right" data-aos-duration="1000"/>
-                <img src ="./assets/images/glenmorangie.png" class="viewed_image" data-aos="fade-left" data-aos-duration="1000"/>
-            </div>
-            <div class="image_rows">
-                <img src ="./assets/images/henessy.png" class="viewed_image" data-aos="fade-right" data-aos-duration="1000"/>
-                <img src ="./assets/images/MOET 1.png" class="viewed_image" data-aos="fade-left" data-aos-duration="1000"/>
-            </div>
-            <div class="image_rows">
-                <img src ="./assets/images/CUP.png" class="viewed_image" data-aos="fade-right" data-aos-duration="1000"/>
-                <img src ="./assets/images/CAP.png" class="viewed_image" data-aos="fade-left" data-aos-duration="1000"/>
-            </div>
-            <div class="image_rows">
-                <img src ="./assets/images/Mask group.png" class="viewed_image" data-aos="fade-right" data-aos-duration="1000"/>
-                <img src ="./assets/images/Mask glen.png" class="viewed_image" data-aos="fade-left" data-aos-duration="1000"/>
+        <section class="image_holders">
+            <div class="moet_bg">
+                <h2 class="moet_nig">Moet Hennessy Nigeria</h2>
+                <p class="moet_retail">Retail, Customer Experience</p>
             </div>
 
-            <div class="explorebutton_div">
-                <a href="project_linked.html" class="explore_button"> Explore</a>
+            <div class="moet_about">
+              <div class="moet_greybg">
+              <img src="./assets/images/Mask glen.png" class="image_profilesrn" />
             </div>
-
+            <div class="story_moet">
+              <p>Since 2019, we have been working with Moet Henessy Nigeria in developing their retail branding experience across Nigeria.</p> <br/>
+              <p>We have built PDU's and PSDU's consistently in the last 3 years. This process has changed  the look and feel for Moet Henessy Nigeria retail branding experience.</p><br />
+              <p>The designs have been beautifully crafted and highly functional with no doubt pushing for high standard quality.</p>
+            </div>
+            </div>
+            <section class="drinksimg_holders">
+              <div class="image_rows">
+                  <img src ="./assets/images/ladyhenessy.png" class="viewed_image" />
+                  <img src ="./assets/images/ladyhenessy.png" class="viewed_image"/>
+              </div>
+              <div class="image_rows">
+                <img src ="./assets/images/ladyhenessy.png" class="viewed_image" />
+                <img src ="./assets/images/ladyhenessy.png" class="viewed_image"/>
+            </div>
+            <div class="image_rows">
+              <img src ="./assets/images/ladyhenessy.png" class="viewed_image" />
+              <img src ="./assets/images/ladyhenessy.png" class="viewed_image"/>
+          </div>
+          <div class="image_rows">
+            <img src ="./assets/images/ladyhenessy.png" class="viewed_image" />
+            <img src ="./assets/images/ladyhenessy.png" class="viewed_image"/>
+        </div>
+        <div class="image_rows">
+          <img src ="./assets/images/ladyhenessy.png" class="viewed_image" />
+          <img src ="./assets/images/ladyhenessy.png" class="viewed_image"/>
+      </div>
+              </section>
+            
         </section>
       <footer
         class="fixedd px-[5vw] py-3 md:pt-[20vh] md:pb-[10vh] bg-black text-white mx-auto bottom-0 right-0 left-0"

@@ -8,6 +8,8 @@
     <meta name="keywords" content="Printing in Nigeria" />
     <meta name="keywords" content="Luxury Printing in Nigeria" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -15,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,8 +26,13 @@
     />
     <title>OLAN AND JOHNSON</title>
   </head>
+<<<<<<< HEAD
   <body class="">
     <header
+=======
+  <body>
+    <!-- <header
+>>>>>>> a25a6a2dc90cb405a75ad8722f3cfb3352db3fed
       class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white overflow-hidden"
     >
       <div class="logo">
@@ -54,36 +62,66 @@
           </span>
         </ul>
       </nav>
+    </header> -->
+    <header
+      class="flex items-center justify-between fixed left-0 right-0 top-0 h-[100px] px-[5vw] shadow bg-white z-50 overflow-hidden"
+    >
+      <div class="logo">
+        <a href="/">
+          <img
+            class="py-8"
+            src="/assets/images/olan-johnson-logo.png"
+            alt="olan johnson logo"
+          />
+        </a>
+      </div>
+      <nav>
+        <ul id="web-nav" class="hidden sm:flex space-x-10 font-semibold">
+          <li class="curpage"><a class="" id="" href="/">Home</a></li>
+          <li class=""><a class="" id="" href="/projects.html">Projects</a></li>
+          <li class="">
+            <a class="" id="" href="/contact.html">Contact Us</a>
+          </li>
+          <li class=""><a class="" id="" href="/about.html">About Us</a></li>
+        </ul>
+        <ul id="mobile-nav" class="hidden max-sm:block">
+          <i id="open" class="fa-solid fa-bars text-3xl text-right hamburger"></i>
+          <i
+            id="close"
+            class="fa-sharp fa-solid fa-xmark text-3xl text-right hidden close"
+          ></i>
+        </ul>
+      </nav>
     </header>
-    <main class="mt-[100px] w-full relative">
-      <ul
-        id="mobile-menu"
-        class="absolute font-semibold z-50 bg-white text-center left-0 right-0 -top-[2px] space-y-10 bottom-00 h-[calc(100vh-100px)] w-full hidden max-sm:block -translate-x-full duration-300 ease-out pt-[4rem] overflow-hidden"
-      >
-        <li class=""><a class="" id="" href="/">Home</a></li>
-        <li class=""><a class="" id="" href="/projects.html">Projects</a></li>
-        <li class="">
-          <a class="" id="" href="/contact.html">Contact Us</a>
-        </li>
-        <li class=""><a class="" id="" href="/about.html">About Us</a></li>
-      </ul>
+    <main class="mt-[100px] w-full">
+      <div class="linksmobile" id="linksmobile">
+        <ul id="web-nav" class="text-black sm:flex space-x-10 font-semibold listLinking">
+          <li class="curhomelist"><a class="" id="" href="/">Home</a></li>
+          <li class="homelist"><a class="" id="" href="/projects.html">Projects</a></li>
+          <li class="homelist">
+            <a class="" id="" href="/contact.html">Contact Us</a>
+          </li>
+          <li class="homelist"><a class="" id="" href="/about.html">About Us</a></li>
+        </ul>
+      </div>
       <section>
         <video
           class="w-full"
           autoplay
-          controls
+          playsinline muted loop
           src="/assets/videos/olan-johnson.mp4"
         ></video>
       </section>
       <section class="bg-[#242424] text-white px-[5vw] py-[10vw]">
         <h2
           class="text-center text-2xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl md:leading-loose py-5"
+          data-aos="fade-up" data-aos-duration="1000"
         >
           We have 3 key principles on how to get the most effective results for
           you
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-[4vw]">
-          <div class="" id="think">
+          <div class="" id="think" data-aos="fade-right" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -95,7 +133,7 @@
               explore the core emotions we need to build on.
             </p>
           </div>
-          <div class="" id="believe">
+          <div class="" id="believe" data-aos="fade-right" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -107,7 +145,7 @@
               simply the stage to help your brand engage your customer.
             </p>
           </div>
-          <div class="" id="doing">
+          <div class="" id="doing" data-aos="fade-right" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -120,9 +158,10 @@
           </div>
         </div>
       </section>
-      <section class="bg-[#64BABE] px-[5vw] py-[10vw]" id="">
+      <section class="bg-[#64BABE] px-[5vw] py-[10vw]" id="" >
         <h2
           class="text-center text-2xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl mx-auto w-full lg:w-8/12 py-5"
+          data-aos="flip-down" data-aos-duration="1000"
         >
           OLAN & JOHNSON follow through on the various disciplines; all
           disciplines have images and pictures for insight.
@@ -130,7 +169,7 @@
         <div
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 py-[4vw] gap-6"
         >
-          <div class="">
+          <div class="" data-aos="flip-down" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold max-sm:pb-3 sm:leading-loose text-xl md:text-2xl"
             >
@@ -138,7 +177,7 @@
             </h3>
             <p class="md:pt-3">Creating awe-inspiring, branded environments</p>
           </div>
-          <div class="">
+          <div class="" data-aos="flip-down" data-aos-duration="1000">
             <h3
               class="lg:pr-[200px] uppercase font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -148,7 +187,7 @@
               Bringing brands to life through signature touchpoints & service
             </p>
           </div>
-          <div class="">
+          <div class="" data-aos="flip-down" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -159,7 +198,7 @@
               positioning
             </p>
           </div>
-          <div class="">
+          <div class="" data-aos="flip-down" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -170,7 +209,7 @@
               wayfinding
             </p>
           </div>
-          <div class="">
+          <div class="" data-aos="flip-down" data-aos-duration="1000">
             <h3
               class="uppercase break-words font-semibold leading-loose text-xl md:text-2xl"
             >
@@ -180,40 +219,44 @@
           </div>
         </div>
       </section>
-      <section class="bg-white px-[5vw] py-[10vw]" id="">
+      <section class="bg-white px-[5vw] py-[10vw]" id="" data-aos="zoom-in" data-aos-duration="1000">
         <h2
           class="text-center text-2xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl mx-auto w-full lg:w-8/12 py-5"
+          data-aos="zoom-in" data-aos-duration="1000"
         >
           We reimagine consumer experience for the world's leading brands
         </h2>
         <div
           class="grid justify-center items-center gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         >
-          <div><img src="/assets/images/green-africa.png" alt="" /></div>
-          <div><img src="/assets/images/moet.png" alt="" /></div>
+          <div><img src="/assets/images/green-africa.png" alt="" data-aos="fade-right" data-aos-duration="1000"/></div>
+          <div><img src="/assets/images/moet.png" alt="" data-aos="fade-right" data-aos-duration="1000"/></div>
           <div>
             <img
               src="/assets/images/Glenmorangie-Master-Logo-orange_veryhigh.width-9500x-prop.png"
               alt=""
+              data-aos="fade-right" data-aos-duration="1000"
             />
           </div>
-          <div><img src="/assets/images/hennesy-gold.png" alt="" /></div>
+          <div><img src="/assets/images/hennesy-gold.png" alt="" data-aos="fade-right" data-aos-duration="1000"/></div>
           <div>
             <img
               src="/assets/images/opic.png"
               alt="opic"
               class="mx-auto sm:mx-0"
+              data-aos="fade-right" data-aos-duration="1000"
             />
           </div>
           <div>
-            <img src="/assets/images/riggs-london.jpg" alt="riggs" />
+            <img src="/assets/images/riggs-london.jpg" alt="riggs" data-aos="fade-right" data-aos-duration="1000"/>
           </div>
         </div>
       </section>
       <section class="md:mb-[575px]">
         <video
           src="/assets/videos/olan-johnson.mp4"
-          controls
+          autoplay
+          playsinline muted loop
           class="w-full"
         ></video>
       </section>
