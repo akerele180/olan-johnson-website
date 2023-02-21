@@ -119,6 +119,8 @@
 }
 .linksmobile{
     /* display: none; */
+    transform: translateX(-100%);
+    transition: transform ease-out 1s;
 }
 .listShown{
     display: none;
