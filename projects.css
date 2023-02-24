@@ -16,6 +16,7 @@
     text-align: center;
     position: fixed;
     width: 100%;
+    z-index: 500;
 }
 .curpage{
     border-bottom: 1px solid black;
@@ -116,6 +117,7 @@
     .curhomelist{
         margin-left: 0 !important;
         border-bottom: 1px solid black;
+        width: 90px;
     }
     .listShown{
         color: black;

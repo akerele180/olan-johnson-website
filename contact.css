@@ -164,6 +164,7 @@
     .linksmobile{
         background-color: white;
         /* display: none; */
+        z-index: 500;
         transform: translateX(-100%);
         transition: transform ease-out 1s;
         text-align: center;
@@ -190,6 +191,7 @@
     }
     .curhomelist{        
         border-bottom: 1px solid black;
+        width: 90px;
     }
     .listShown{
         color: black;

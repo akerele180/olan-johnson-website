@@ -161,6 +161,11 @@
     .homelist{
         margin-left: 0 !important;
     }
+    .curhomelist{
+        margin-left: 0 !important;
+        border-bottom: 1px solid black;
+        width: 90px;
+    }
     .listShown{
         color: black;
         display: block;
