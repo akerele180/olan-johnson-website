@@ -41,7 +41,7 @@
     z-index: 500;
 }
 .curpage{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .viewed_image{
     width: 43%;
