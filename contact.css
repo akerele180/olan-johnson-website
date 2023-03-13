@@ -11,6 +11,28 @@
 .curpage{
     border-bottom: 1px solid black;
 }
+#web-nav li a {
+  position: relative;
+}
+
+#web-nav li > a::after {
+  content: "";
+  height: 1.85px;
+  border-radius: 15px;
+  background: black;
+  width: 0px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(8px);
+  transition: all ease-out 200ms;
+}
+#web-nav li:hover a::after {
+  width: 20px;
+  transition: all ease-in 300ms;
+}
 .selected{
     border-bottom: 1px solid black;
 }
